@@ -1,0 +1,24 @@
+
+<header>
+  <div class="container-fluid">
+    <div class="row justify-content-between align-items-center">
+      <a routerLink="/" class="pl-3 logo">
+        <img class="" src = "assets/BK_Logo-BG-removed.png" alt="BK Food Corner">
+      </a>
+      <app-search class="search"></app-search>
+      <nav class="" > 
+        <ul class="navbar">
+          <li>
+            <a class="button mr-2" routerLink="/">Home</a>
+          </li>
+          <li>
+            <a class="button mr-2" routerLink="/cart-page">
+              Cart <span>{{cartQuantity}}</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    
+  </div>
+</header>
